@@ -4,7 +4,7 @@ from typing import Optional
 from django.contrib.auth.models import User
 from django.db.models import QuerySet
 
-from CRM.app.models import Customer, Opportunity
+from bonck_crm.app.models import Customer, Opportunity
 
 
 class OpportunityCRUD:

@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 """
-CRM API 测试脚本
+bonck_crm API 测试脚本
 根据 api_docs.md 编写的完整API测试
 """
 
@@ -224,7 +224,7 @@ def test_interaction_api(customer_id, contact_id, lead_id):
 def main():
     """主测试函数"""
     print("=" * 60)
-    print("CRM API 测试脚本")
+    print("bonck_crm API 测试脚本")
     print("=" * 60)
 
     try:

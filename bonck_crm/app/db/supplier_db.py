@@ -2,7 +2,7 @@ from typing import Optional
 
 from django.db.models import QuerySet
 
-from CRM.app.models import Supplier
+from bonck_crm.app.models import Supplier
 
 
 class SupplierCRUD:

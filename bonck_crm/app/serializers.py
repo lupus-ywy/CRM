@@ -1,12 +1,12 @@
 from rest_framework import serializers
 
-from CRM.app.models.contact import Contact
-from CRM.app.models.customer import Customer
-from CRM.app.models.interaction import Interaction
-from CRM.app.models.lead import Lead
-from CRM.app.models.opportunity import Opportunity
-from CRM.app.models.product import Product
-from CRM.app.models.supplier import Supplier
+from bonck_crm.app.models.contact import Contact
+from bonck_crm.app.models.customer import Customer
+from bonck_crm.app.models.interaction import Interaction
+from bonck_crm.app.models.lead import Lead
+from bonck_crm.app.models.opportunity import Opportunity
+from bonck_crm.app.models.product import Product
+from bonck_crm.app.models.supplier import Supplier
 
 
 class LeadSerializer(serializers.ModelSerializer):

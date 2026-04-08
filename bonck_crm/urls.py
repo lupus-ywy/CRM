@@ -1,5 +1,5 @@
 """
-URL configuration for CRM project.
+URL configuration for bonck_crm project.
 
 The `urlpatterns` list routes URLs to views. For more information please see:
     https://docs.djangoproject.com/en/6.0/topics/http/urls/
@@ -8,7 +8,7 @@ from django.contrib import admin
 from django.urls import path, include
 from rest_framework.routers import DefaultRouter
 
-from CRM.app.views import (
+from bonck_crm.app.views import (
     LeadViewSet, CustomerViewSet, ContactViewSet,
     SupplierViewSet, ProductViewSet, OpportunityViewSet,
     InteractionViewSet
